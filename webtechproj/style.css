@@ -1,0 +1,106 @@
+#navbarSupportedContent li{
+    font-size: 17px;
+    font-weight: 500;
+    color: black;
+}
+#navbarSupportedContent i{
+    
+    font-size: 30px;
+}
+#navbar{
+    margin-top: -60px;
+    position: fixed;
+}
+#nav{
+    margin-left: 900px;
+    
+}
+#nav li{
+    font-size: 17px;
+    font-size: 17px;
+    font-weight: 500;
+    color: black;
+    padding: 9px;
+}
+.vl {
+    margin-top: 7px;
+    border-left: 2px solid rgb(199, 193, 193);
+    height: 55px;
+  }
+#top li{
+    display: inline-block;
+}
+#sev2 table{
+    width: 109%;
+    font-size: 17px;
+    
+    
+}
+#sev3 table{
+    width: 105%;
+    font-size: 17px;
+    
+}
+
+th{
+    padding-bottom:20px ;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+}
+td{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(176, 172, 172);
+    font-weight: 400;
+}
+#sev li{
+    display: inline-block;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    
+}
+button{
+    padding: 11px;
+    background-color: rgb(85,55,255);
+    color: white;
+    border-color: rgb(85,55,255);
+    font-size: 18.7px;
+}
+button:hover{
+    background-color:blue ;
+}
+#four1 li:hover{
+    background-color: rgb(187, 182, 182);
+    text-decoration: underline 3px solid rgb(85,55,255);
+}
+
+#four p{
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+    padding: 25px;
+    
+}
+#four h5{
+    float: left;
+}
+#four a{
+    float: right;
+}
+#card{
+    position:relative;
+}
+#card p{
+    text-align: left;
+}
+#card:hover{
+    top:-10px;
+}
+
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{   }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}	

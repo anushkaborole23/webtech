@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educative: Interactive Courses for Software Developers</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./Screenshot 2023-06-17 140258.png" type="image/x-icon">
+    <link rel="stylesheet" href="./font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+<div id="navbar" >
+    <nav class="navbar navbar-expand-lg bg-white">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./Screenshot 2023-06-16 222619.png" alt="Logo" width="45" height="40" class="d-inline-block align-text-top">
+              </a>
+          <a class="navbar-brand" href="#" style="font-weight: 600;font-size: 22px;">educative</a>
+          <button id="menu" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            
+              <li class="nav-item dropdown">
+                <a class="nav-link text-black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Solutions
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a style="font-size: 20px;color: black;font-weight:600" class="dropdown-item" href="#"><i class="fa fa-users" aria-hidden="true"></i> Educative Enterprise<br><span style="font-size: 15px;color: grey;margin-left:35px; ">Enablement platform</span></a></li>
+                  <li><a style="font-size: 20px;color: black;font-weight:600" class="dropdown-item" href="#"><i class="fa fa-chevron-right" aria-hidden="true"></i> Developers<br>
+                   <span style="font-size: 15px;color: grey;margin-left:35px; ">Learn new technologies</span>
+                  </a></li>
+                </ul>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link text-black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Products
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a style="font-size: 20px;color: black;font-weight:600" class="dropdown-item" href="#"><i class="fa fa-sign-in" aria-hidden="true"></i> Onboarding<p style="margin-left:35px; font-size: 15px;color: grey;">Onboard new hires faster</p></a></li>
+                      <li><a style="font-size: 20px;color: black;font-weight:600" class="dropdown-item" href="#"><i class="fa fa-users" aria-hidden="true"></i> Courses for Enterprises<p style="margin-left:35px; font-size: 15px;color: grey;"> Superchange your engineering team</p></a></li>
+                      <li><a style="font-size: 20px;color: black;font-weight:600" class="dropdown-item" href="#"><i class="fa fa-book" aria-hidden="true"></i> Courses<p style="margin-left:35px; font-size: 15px;color: grey;">World class courses</p></a></li>
+                      <li><a style="font-size: 20px;color: black;font-weight:600" class="dropdown-item" href="#"><i class="fa fa-flask" aria-hidden="true"></i> CloudLabs<p style="margin-left:35px; font-size: 15px;color: grey;">Augment projects with cloud services</p></a></li>
+                      <li><a style="font-size: 20px;color: black;font-weight:600" class="dropdown-item" href="#"><i class="fa fa-bullseye" aria-hidden="true"></i> Assessments<p style="margin-left:35px; font-size: 15px;color: grey;">Measure your skillscore</p></a></li>
+                      <li><a style="font-size: 20px;color: black;font-weight:600" class="dropdown-item" href="#"><i class="fa fa-caret-square-o-up" aria-hidden="true"></i> Personalized paths<p style="margin-left:35px; font-size: 15px;color: grey;">Personalized paths for your goals</p></a></li>
+                      <li><a style="font-size: 20px;color: black;font-weight:600" class="dropdown-item" href="#"><i class="fa fa-puzzle-piece" aria-hidden="true"></i> Projects<p style="margin-left:35px; font-size: 15px;color: grey;">build real world applications</p></a></li>
+                      <li><a style="font-size: 20px;color: black;font-weight:600" class="dropdown-item" href="#"><i class="fa fa-comment" aria-hidden="true"></i> Answers<p style="margin-left:35px; font-size: 15px;color: grey;">trusted and source proved developer questions</p></a></li>
+                      </ul>
+                      
+                      <li class="nav-item dropdown">
+                        <a class="nav-link text-black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Pricing
+                        </a>
+                        
+                        </ul>  
+              
+        </div>
+        <div id="nav">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"><i class="fa fa-search" aria-hidden="true"></i> Search</a>
+            </li><div class="vl"></div>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Login</a>
+            </li>
+            
+            <li class="nav-item"><button>Join for free   <i class="fa fa-long-arrow-right" aria-hidden="true"></i></button></li>
+          </ul>
+        </div>
+        </div>
+          
+      </nav>
+</div>
+<div id="top">
+    <img style="float: right;height: 600px;" src="./Screenshot 2023-06-16 221706.png" alt="">
+    <div id="topin" style="margin-top: 60px;margin-left: 200px;">
+    <p style="font-size:60px ;font-weight: 600;padding-top: 100px;">Educative Accelerates<br> Developer Productivity</p>
+    <p style="font-size: 22px;color: rgb(98, 95, 95);padding-bottom:10px ;">Explore over 600 courses on: Programming | Cloud <br>Computing | Data Science | Machine Learning</p>
+    <button style="padding: 15px;">Explore Courses</button><br><br><br>
+    <p style="font-size: 18px;color: grey;">Join<span style="color: black;font-weight: 600;"> 1.8 Million</span> developers working in companies like
+     <ul>
+      <li><img style="display: inline-block;height: 30px;margin-left: -30px;" src="./t1.png"></li>
+      <li><img style="display: inline-block;height: 80px;" src="./t2.png"></li>
+      <li><img style="display: inline-block;height: 25px;" src="./t3.png"></li>&nbsp;&nbsp;&nbsp;
+      <li><img style="display: inline-block;height: 40px;" src="./t4.png"></li>
+      <li><img style="display: inline-block;height: 70px;" src="./t5.png" alt=""></li>
+     </ul>
+    </p>
+    </div>
+</div>
+<div id="two" style="background-color:rgb(3, 35, 65) ;color: white;">
+    <img style="float: right;" src="./Screenshot 2023-06-17 140831.png">
+    <div id="two1" style="margin-top: 60px;margin-left: 200px;">
+    <p style="padding-top: 80px;font-size: 15px;font-weight: 500;"><i style="color: rgb(118, 118, 190);" class="fa fa-circle" aria-hidden="true"></i> INTERACTIVE</p>
+    <p style="font-size: 35px;font-weight: 700;">Hands-on coding <br>environments</p>
+    <p style="font-size: 22px;font-weight: 600;">You don’t get better at swimming by watching others. <br>Coding is no different. Practice as you learn with live code<br> environments inside your browser.</p>
+    <ul style="padding-left: -150px;">
+      <li style="display: inline-block;margin-left: -30px;">Hands-on Projects: Build<br> Real World Applications</li>
+      <li style="display: inline-block;">Run Live Applications In <br>Your Browser</li>
+    </ul>
+    </div>
+    <img style="padding-top: 10px;margin-left: 200px;" src="./Screenshot 2023-06-17 140848.png">
+    <div id="two2" style="margin-left: 970px;">
+      <p style="margin-top: -600px;padding-top: 80px;font-size: 15px;font-weight: 500;padding-top: 80px;font-size: 15px;font-weight: 500;"><i style="color: rgb(118, 118, 190);" class="fa fa-circle" aria-hidden="true"></i> 2x FASTER LEARNING</p>
+      <p style="font-size: 35px;font-weight: 700;">2x FASTER LEARNING</p>
+      <p style="font-size: 22px;font-weight: 600;">Reading is faster than watching: The average tutorial is<br> spoken at 150 words per minute. You can read at 250. That's<br> why our courses are laid out as rich text and an interactive <br>experience so you learn more, learn faster, and learn exactly <br>what you need.</p>
+      <ul >
+        <li style="display: inline-block;margin-left: -30px;">Assessments: Measure <br>Your Skill Score</li>&nbsp;&nbsp;
+        <li style="display: inline-block;">Personalized Paths</li>
+      </ul><br><br><br><br><br><br><br>
+    </div>
+  </div>
+  <div id="three" style="background-color: rgb(223, 234, 244);">
+    <center>
+      <p style="font-size: 30px;font-weight: 600;padding-top: 40px;">Superchange your development career</p><br>
+      <button>Start your free trial <i class="fa fa-long-arrow-right" aria-hidden="true"></i></button><br>
+    </center><br><br>
+  </div>
+  <div id="four">
+    <center>
+    <p style="font-size: 40px;font-weight: 500;">Stop scrolling. Start coding.</p>
+    <div id="four1">
+    <ul>
+      <li id="Ip" onclick="show('operation1')" style="display: inline-block;padding: 10px;font-size: 20px;" id="d1">Interview prep</li>
+      <li id="js" onclick="show('operation2')" style="display: inline-block;padding: 10px;font-size: 20px;" id="d2">Javascript</li>
+      <li id="p" onclick="show('operation3')" style="display: inline-block;padding: 10px;font-size: 20px;" id="d3">Python 3</li>
+      
+    </ul>
+    </div>
+    <div id="main_place">
+      <ul>
+        <li style="display: inline-block;"><div class="card" id="card" style="width: 25rem;">
+          <img src="./c1.avif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Course</h5>
+            <p class="card-text">Grokking coding interview patterns in python </p>
+            <span></span>
+            <a href="#" class="btn btn-primary">Get started <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+          </div>
+        </div></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <li style="display: inline-block;"><div class="card" id="card" style="width: 25rem;">
+          <img src="./c2.avif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Course</h5>
+            <p class="card-text">Grokking modern system design interview for engineers &</p>
+            <a href="#" class="btn btn-primary">Get started <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+          </div>
+        </div></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <li style="display: inline-block;"><div class="card" id="card" style="width: 25rem;">
+          <img src="./c3.avif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Course</h5>
+            <p class="card-text">Grokking the machine learning interview</p>
+            <a href="#" class="btn btn-primary">Get started <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+          </div>
+        </div></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       </ul>
+    </div>
+    <div id=operation1 style="display:none;">
+     <ul>
+      <li style="display: inline-block;"><div class="card" id="card" style="width: 25rem;">
+        <img src="./c1.avif" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Course</h5>
+          <p class="card-text">Grokking coding interview patterns in python </p>
+          <a href="#" class="btn btn-primary">Get started <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+        </div>
+      </div></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <li style="display: inline-block;"><div class="card" id="card" style="width: 25rem;">
+        <img src="./c2.avif" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Course</h5>
+          <p class="card-text">Grokking modern system design interview for engineers &</p>
+          <a href="#" class="btn btn-primary">Get started <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+        </div>
+      </div></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <li style="display: inline-block;"><div class="card" id="card" style="width: 25rem;">
+        <img src="./c3.avif" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Course</h5>
+          <p class="card-text">Grokking the machine learning interview</p>
+          <a href="#" class="btn btn-primary">Get started <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+        </div>
+      </div></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     </ul>
+    </div>
+    <div id="operation2" style="display: none;">
+      <ul>
+        <li style="display: inline-block;"><div class="card" id="card" style="width: 25rem;">
+          <img src="./b1.avif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Course</h5>
+            <p class="card-text">The Complete Guide to moder <br>Javascript</p>
+            <a href="#" class="btn btn-primary">Get started <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+          </div>
+        </div></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <li style="display: inline-block;"><div class="card" id="card" style="width: 25rem;">
+          <img src="./b2.avif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Course</h5>
+            <p class="card-text">JavaScript Frequentals Before<br> Learning React</p>
+            <a href="#" class="btn btn-primary">Get started <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+          </div>
+        </div></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <li style="display: inline-block;"><div class="card" id="card" style="width: 25rem;">
+          <img src="./b3.avif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Course</h5>
+            <p class="card-text">Web development :Unraveling <br>HTML,CSS and Javascript</p>
+            <a href="#" class="btn btn-primary">Get started <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+          </div>
+        </div></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       </ul>
+    </div>
+    <div id="operation3" style="display: none;">
+      <ul>
+        <li style="display: inline-block;"><div class="card" id="card" style="width: 25rem;">
+          <img src="./a1.avif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Course</h5>
+            <p class="card-text">Learn Python # fron scratch</p>
+            <a href="#" class="btn btn-primary">Get started <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+          </div>
+        </div></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <li style="display: inline-block;"><div class="card" id="card" style="width: 25rem;">
+          <img src="./a2.avif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Course</h5>
+            <p class="card-text">Data structure and algorithms<br>in python</p>
+            <a href="#" class="btn btn-primary">Get started <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+          </div>
+        </div></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <li style="display: inline-block;"><div class="card" id="card" style="width: 25rem;">
+          <img src="./a3.avif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Course</h5>
+            <p class="card-text">full speed python</p>
+            <a href="#" class="btn btn-primary">Get started <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+          </div>
+        </div></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       </ul>
+    </div>
+     <button>Browse all courses <i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+    </center>
+  </div><br>
+  <div id="five" style="background-color: rgb(3,35,65);">
+    <img  src="./devpathSection.avif" style="margin-left: 900px;margin-top: 150px;">
+    <div id="five1" style="color: white;margin-top: -500px;margin-left: 200px;">
+    <p style="padding-top: 80px;font-size: 17px;font-weight: 500;"><i class="fa fa-arrow-circle-down" aria-hidden="true"></i> DEVPATH</p>
+    <p style="font-size: 35px;font-weight: 700;">Train your Engineering Team with <br>DevPath</p>
+    <p style="font-size: 22px;font-weight: 600;">Leverage Educative courses and internal knowledge to<br> onboard, upskill, and train your developers at scale with<br> DevPath.</p><br>
+    <button>Visit Devpath</button><br><br><br>
+  </div><br><br><br>
+  <div id="six" style="background-color: rgb(239,239,250);">
+    
+    <div id="crousal">
+      
+      <br><br>
+
+        <p style="padding-top: 10px;margin-left: 200px;font-size: 30px;font-weight: 600;">Recommended by the best in the industry</p><br>
+      <button style="margin-left: 1400px;margin-top: -1100px;border-radius: 25px; width: 50px;" onclick="scrool()"><</button>
+      <button style="border-radius: 25px; width: 50px;" onclick="scrool()">></button>
+      <img style="height: 520px;margin-left: 200px;" src="./x1.png"  id="01">
+    </div>
+  </div>
+  <div id="sev" style="background-color:  rgb(20,20,47);"><br>
+    <div id="sev1" style="margin-top: 60px;margin-left: 200px;color: white;">
+     <img src="./Screenshot 2023-06-17 225917.png" style="padding-bottom: 10px;"><br>
+     <p style="font-size: 20px;padding-bottom: 20px;">Learn in-demand tech skills in half the time</p>
+     <hr style="margin-right:220px;background-color: white;height: 3px;"><br><br>
+     <div id="sev2">
+     <table>
+      <tr>
+        <th>PRODUCTS</th>
+        <th>PRICING</th>
+        <th>LEGAL</th>
+        <th>CONTRIBUTE</th>
+        
+      </tr>
+      <tr>
+        <td>Learning</td>
+        <td>For individuals</td>
+        <td>Privacy Policy</td>
+        <td>Become an Author</td>
+        
+
+        </td>
+        </tr>
+      <tr>
+
+<td>CloudLabs</td>
+<td>Free Trial</td>
+<td>Cookie Policy</td>
+<td>Become an Affiliate</td>   
+
+ </tr>
+      <tr>
+
+<td>Onboarding</td>
+<td></td>
+<td>Cookie Settings</td>
+<td>Become a Contributer</td>    
+</tr>
+      <tr>
+<td>Skill Assessments</td>
+<td></td>
+<td>Terms of Service</td>
+<td></td> 
+</tr>
+      <tr>
+
+<td>Projects</td>
+<td></td>
+<td>Data Processing<br> Agreement</td>
+<td></td>      
+
+</tr>
+</table>
+</div><br>
+<div id="sev3">
+<table>
+   <tr>
+    <th>RESOURSES</th>
+        <th>ABOUT US</th>
+        <th>MORE</th>
+   </tr>
+   <tr>
+    <td>Blog</td>
+        <td>Our team</td>
+        <td>GitHub Students Scholarship
+   </tr>
+   <tr>
+    <td>EM Hub</td>  
+    <td>Careers</td>
+    <td>Course Catelog</td>
+   </tr>
+   <tr>
+    <td>Sessions</td>
+<td>Frequently <br>Asked <br>Questions</td>
+<td>Early Access Courses</td>
+   </tr>
+   <tr>
+    <td>Answers</td>
+    <td>Contact Us</td>
+    <td>Earn Referral Credits</td>
+   </tr>
+   <tr>
+<td></td>
+<td>Press</td>
+<td>CodingInterview.com</td>
+   </tr>
+</table>
+</div><br>
+<hr style="margin-right: 220px;"><br>
+
+    </div>
+    <ul><li style="margin-left: 150px;"><i class="fa fa-facebook" aria-hidden="true"></i></li>
+    <li><i class="fa fa-linkedin" aria-hidden="true"></i></li>
+    <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+    <li><i class="fa fa-youtube-play" aria-hidden="true"></i></li>
+    <li><i class="fa fa-microphone" aria-hidden="true"></i></li></ul>
+    <p style="color: white; margin-left: 1000px;margin-top: -60px;">Copyright ©2023 Educative, Inc. All rights reserved.</p><img src="./f.svg" alt="" srcset="" style="height: 60px;margin-left: 1400px;margin-top: -100px;"><br><br><br>
+  </div>
+  
+</body>
